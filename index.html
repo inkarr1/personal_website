@@ -5,47 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jhanpiere Montes</title>
     <link rel="icon" type="image/svg" href="./images/terra.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
-    <header>
-      <figure>
-        <img src="./images/terra_and_name.svg" alt="Logo de la página de Jhanpiere Montes">
-      </figure>
-      <nav>
-        <ol>
-          <li> 
-            <a class="link" href="#">Inicio</a>
-          </li>
-          <li>
-            <a class="link" href="./html/blog.html">Blog</a>
-          </li>
-          <li>
-            <a class="link" href="./html/potfolio.html">Portafolio</a>
-          </li>
-          <li>
-            <a class="link" href="./html/cv.html">CV</a>
-          </li>
-          <li>
-            <a class="link" href="./html/aboutme.html">Acerca de mí</a>
-          </li>
-          <li>
-            <a class="link" href="./html/contact.html">Contacto</a>
-          </li>
-        </ol>
-      </nav>
+    <header class = "header">
+      <div class = "container">
+        <figure class="logo">
+          <img src="./images/terra_and_name.svg" alt="Logo de la página de Jhanpiere Montes">
+        </figure>
+        <nav class="menu">
+          <ol>
+            <li> 
+              <a class="link" href="#">INICIO</a>
+            </li>
+            <li>
+              <a class="link" href="./html/blog.html">BLOG</a>
+            </li>
+            <li>
+              <a class="link" href="./html/potfolio.html">PORTAFOLIO</a>
+            </li>
+            <li>
+              <a class="link" href="./html/cv.html">CV</a>
+            </li>
+            <li>
+              <a class="link" href="./html/aboutme.html">SOBRE MÍ</a>
+            </li>
+            <li>
+              <a class="link" href="./html/contact.html">CONTACTO</a>
+            </li>
+          </ol>
+        </nav>
+      </div>
     </header>
     <main>
-      <section>
-        <div>
-          <h1>Hola, soy </br> <strong>Jhanpiere</strong></h1>
-          <p>Ingeniero de Transportes y Desarrallador Web</p>
-          <button >
-            <a href="./html/contact.html">Creemos algo juntos</a>
-          </button>
-          <img src="./images/photo.jpg" alt="Foto de portada">
+      <section class="hero">
+        <div class="container_second">
+          <nav class="hero_title">
+            <h1>Hola, soy </br> <strong>Jhanpiere</strong></h1>
+            <p>Ingeniero de Transportes y Desarrallador Web</p>
+            <div class="button" >
+              <a href="./html/contact.html">Creemos algo juntos</a>
+            </div>
+          </nav>
+          <figure>
+            <img class="hero-image" src="./images/photo.jpg" width="750" alt="Foto de portada">
+          </figure>
         </div>
       </section>
     </main>
+    <footer class="footer">
+      <div class="container">
+        <div>
+          <p>Let's create a better world.🌎</p>
+        </div>
+        <div>
+          <p>Design with 🧡 by <a href="https://twitter.com/JhanpiereMontes" target="_blank">@JhanpiereMontes</a></p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

@@ -1,0 +1,111 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-family: 'Ubuntu',sans-serif;
+}
+
+h1,
+p,
+button{
+  font-family: 'Nunito', sans-serif;
+  font-weight: normal;
+}
+
+h1{
+  font-size: 6rem;
+  line-height: 1.2;
+  color: #232F50;
+}
+
+p{
+  font-size: 2.2rem;
+  color: #232F50;
+}
+
+ol,
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 2rem;
+}
+
+.header{
+  background-color: #EDEDED;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.container{
+  display: flex;
+  height: 10.1rem;
+  width: fit-content;
+  align-items: center;
+  justify-content: space-between;
+}
+.header ol{
+  display: flex;
+}
+.header a{
+  color: #232F50;
+  padding: 0 3rem;
+  text-decoration: none;
+}
+
+main{
+  background-color: #EDEDED;
+}
+
+.hero{
+  height: 75rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-image{
+  object-fit: cover;
+}
+.container_second{
+  display: flex;
+  
+}
+.footer{
+  padding: 1rem;
+  color: #EDEDED;
+  background-color: #232F50;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer p{
+  font-size: 1.6rem;
+  color: #EDEDED;
+}
+.footer a{
+  color: #EDEDED;
+  text-decoration: none;
+}
+
+.container_second .button{
+  display: block;
+  background-color: #F27638;
+  padding: 2rem 0;
+  border-radius: 20rem;
+  width: 27rem;
+}
+.container_second a{
+  font-family: 'Nunito', sans-serif;
+  text-decoration: none;
+  color:#EDEDED;
+  font-size: 2rem;
+}
