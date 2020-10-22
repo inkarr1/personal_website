@@ -1,38 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jhanpiere Montes</title>
-    <link rel="icon" type="image/svg" href="./images/terra.svg">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/svg" href="./images/terra.svg"/>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <header class = "header">
-      <div class = "container">
+    <header class="header">
+      <div class="container">
         <figure class="logo">
-          <img src="./images/terra_and_name.svg" alt="Logo de la página de Jhanpiere Montes">
+          <img src="./images/Terra_name.svg" style="width: 150px" alt="Logo de la página de Jhanpiere Montes"/>
         </figure>
         <nav class="menu">
           <ol>
-            <li> 
-              <a class="link" href="#">INICIO</a>
+            <li>
+              <a class="link" href="#portafolio">Portafolio</a>
             </li>
             <li>
-              <a class="link" href="./html/blog.html">BLOG</a>
+              <a class="link" href="#eventos">Experiencia</a>
             </li>
             <li>
-              <a class="link" href="./html/potfolio.html">PORTAFOLIO</a>
-            </li>
-            <li>
-              <a class="link" href="./html/cv.html">CV</a>
-            </li>
-            <li>
-              <a class="link" href="./html/aboutme.html">SOBRE MÍ</a>
-            </li>
-            <li>
-              <a class="link" href="./html/contact.html">CONTACTO</a>
+              <a class="link" href="#contacto">Trabajemos juntos</a>
             </li>
           </ol>
         </nav>
@@ -40,24 +31,110 @@
     </header>
     <main>
       <section class="hero">
-        <div class="container_second">
-          <nav class="hero_title">
-            <h1>Hola, soy </br> <strong>Jhanpiere</strong></h1>
-            <p>Ingeniero de Transportes y Desarrallador Web</p>
-            <div class="button" >
-              <a href="./html/contact.html">Creemos algo juntos</a>
+        <div class="container">
+          <h1>
+            ¡Hola! Soy <strong>Jhanpiere Montes</strong> <br/><strong>Ingeniero de Transportes</strong> con <br/>
+            pasión por la <strong>tecnología</strong>
+          </h1>
+          <img class="hero-image" src="./images/photo.jpg" width="500" height="420" alt="imagen de fondo">
+        </div>
+      </section>
+      <section id=portafolio class="portfolio">
+        <div class="container">
+          <h2>Portafolio (Proyectos Destacados)</h2>
+          <article class="project">
+            <div class="project-details">
+              <h3 class="project-title">Mi página personal</h3>
+              <h6 class="project-course">HTML / CSS</h6>
+              <p class="project-date"><small><strong>Fecha:</strong> 21/10/2020</small></p>
+              <p class="project-url"><small><strong>Puedes verlo en:</strong><a href="https://jhanpieremontes.github.io/web_development_platzi/" target="_blank">  GitHub Pages</a></small></p>
+              <p class="project-description">Mi página web fue un resultado del proyecto del Curso de Desarrollo Web Online en Platzi. Desarrollando conceptos y buenas prácticas de HTML y CSS.</p>
             </div>
-          </nav>
-          <figure>
-            <img class="hero-image" src="./images/photo.jpg" width="750" alt="Foto de portada">
-          </figure>
+            <figure class="project-imageContainer">
+              <img class="project-image" src="./images/landing_page.png" alt="Imagen de una landing page"/>
+            </figure>
+          </article>
+          <article class="project">
+            <div class="project-details">
+              <h3 class="project-title">Google Clone</h3>
+              <h6 class="project-course">HTML / CSS</h6>
+              <p class="project-date"><small><strong>Fecha:</strong> 24/09/2020</small></p>
+              <p class="project-url"><small><strong>Puedes verlo en:</strong> <a href="https://jhanpieremontes.github.io/google_clone/" target="_blank">  GitHub Pages</a> </small></p>
+              <p class="project-description">Google clone fue un resultado del proyecto del Curso Definitivo de HTML y CSS en Platzi. Desarrollando conceptos y buenas prácticas de HTML y CSS.</p>
+            </div>
+            <figure class="project-imageContainer">
+              <img class="project-image" src="./images/google_clone.png" alt="Imagen de la portada de un clon de Google"/>
+            </figure>
+          </article>
+        </div>
+      </section>
+      <div class="container">
+        <h2 class="event-list-title">Más sobre mi experiencia</h2>
+      </div>
+      <section id="eventos" class="event-list">
+        <div class="container">
+          <article class="event">
+            <figure class="event-imageContainer">
+              <img class="event-image" src="./images/webinar.png" alt="Flyer del webinar"/>
+            </figure>
+            <div class="event-detail">
+              <h3 class="event-title">Webinar: Cómo gestionar mi tiempo influye en la innovación</h3>
+              <p class="event-description">Webinar junto con el Centro de Innovación de Miraflores</p>
+              <a class="event-url" href="https://www.youtube.com/watch?v=mQWrAtJRDNU" target="_blank">Ver Plática</a>
+            </div>
+          </article>
+          <article class="event">
+            <figure class="event-imageContainer">
+              <img class="event-image" src="./images/webinar.png" alt="Flyer del webinar"/>
+            </figure>
+            <div class="event-detail">
+              <h3 class="event-title">Webinar: Cómo gestionar mi tiempo influye en la innovación</h3>
+              <p class="event-description">Webinar junto con el Centro de Innovación de Miraflores</p>
+              <a class="event-url" href="https://www.youtube.com/watch?v=mQWrAtJRDNU" target="_blank">Ver Plática</a>
+            </div>
+          </article>
+          <article class="event">
+            <figure class="event-imageContainer">
+              <img class="event-image" src="./images/webinar.png" alt="Flyer del webinar"/>
+            </figure>
+            <div class="event-detail">
+              <h3 class="event-title">Webinar: Cómo gestionar mi tiempo influye en la innovación</h3>
+              <p class="event-description">Webinar junto con el Centro de Innovación de Miraflores</p>
+              <a class="event-url" href="https://www.youtube.com/watch?v=mQWrAtJRDNU" target="_blank">Ver Plática</a>
+            </div>
+          </article>
+          <article class="event">
+            <figure class="event-imageContainer">
+              <img class="event-image" src="./images/webinar.png" alt="Flyer del webinar"/>
+            </figure>
+            <div class="event-detail">
+              <h3 class="event-title">Webinar: Cómo gestionar mi tiempo influye en la innovación</h3>
+              <p class="event-description">Webinar junto con el Centro de Innovación de Miraflores</p>
+              <a class="event-url" href="https://www.youtube.com/watch?v=mQWrAtJRDNU" target="_blank">Ver Plática</a>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section id="contacto" class="contact">
+        <div class="container">
+          <form class="form-email" action="/suscripcion/">
+            <h3>¿Creamos algo juntos?</h3>
+            <input type="email" placeholder="Déjame tu email">
+            <button>Enviar</button>
+          </form>
+          <div class="social">
+            <a href="https://twitter.com/JhanpiereMontes" target="_blank" class="social-link twitter"></a>
+            <a href="https://www.facebook.com/jhanpiere.montes"  target="_blank" class="social-link facebook"></a>
+            <a href="https://github.com/jhanpieremontes" target="_blank" class="social-link github"></a>
+            <a href="https://www.instagram.com/jhanpieremontes/?hl=es-la" target="_blank" class="social-link instagram"></a>
+          </div>
         </div>
       </section>
     </main>
     <footer class="footer">
       <div class="container">
         <div>
-          <p>Let's create a better world.🌎</p>
+          <p>#CreaUnMundoMejor</p>
         </div>
         <div>
           <p>Design with 🧡 by <a href="https://twitter.com/JhanpiereMontes" target="_blank">@JhanpiereMontes</a></p>
@@ -65,4 +142,4 @@
       </div>
     </footer>
   </body>
-</html>
+</html
