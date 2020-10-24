@@ -66,9 +66,7 @@ h6{
   font-family: 'Fjalla One', sans-serif;
   font-weight: normal;
 }
-.form-email h3{
-    color: #EDEDED;
-}
+
 h1{
   font-size: 40px;
   line-height: 1.5;
@@ -340,7 +338,9 @@ a{
   font-family: 'Source Sans Pro', sans-serif;
   margin: 0;
 }
-
+.name-form{
+  color: #EDEDED;
+}
 .footer{
   padding: 15px;
   color: #EDEDED;
