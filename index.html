@@ -6,32 +6,57 @@
     <title>Jhanpiere Montes</title>
     <link rel="icon" type="image/svg" href="./images/terra.svg"/>
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro&display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="./css/font/flaticon.css">
+    <!-- <link rel="stylesheet" href="css/media-queries.css"> -->
     <meta name="description" content="Hola Soy 🌎Jhanpiere Montes  ingeniero de transportes y apasionado por la tecnología, te ayudaré a cómo impactar en el mundo.🚀">
   </head>
-  <body>
+  <body class="home-body">
     <span class="icon-menu burger-button" id="burger-menu"></span>
     <header class="header">
-      <div class="container">
+      <section class="container">
         <figure class="logo">
-          <img src="./images/Terra_name.svg" style="width: 150px" alt="Logo de la página de Jhanpiere Montes"/>
+          <a href="index.html">
+            <img src="./images/Terra_name.svg" style="width: 150px" alt="Logo de la página de Jhanpiere Montes"/>
+          </a>
         </figure>
-        <nav class="menu">
+      </section>
+      <nav class="menu">
           <ol>
             <li>
-              <a class="link" href="#portafolio">Portafolio</a>
+              <a class="link" href="blogs.html">Blog</a>
             </li>
             <li>
-              <a class="link" href="#eventos">Experiencia</a>
+              <a class="link" href="portfolio.html">Portafolio</a>
             </li>
             <li>
-              <a class="link" href="#contacto">Trabajemos juntos</a>
+              <a class="link" href="experience.html">Experiencia</a>
+            </li>
+            <li>
+              <a class="link" href="contact.html">Trabajemos juntos</a>
             </li>
           </ol>
-        </nav>
-      </div>
+      </nav>
+      <section class="hero">
+        <div class="container">
+          <h1>
+            ¡Hola! Soy <strong>Jhanpiere Montes</strong> <br/><strong>Ingeniero de Transportes</strong> con <br/>
+            pasión por la <strong>tecnología</strong>
+          </h1>
+          <!-- <img class="hero-image" src="./images/photo.jpg" width="500" height="420" alt="imagen de fondo"> -->
+        </div>
+      </section>
+      <section class="header-icons-container">
+        <div class="icons">
+          <a href="https://www.facebook.com/JhanpiereMontes"><span class="flaticon-001-facebook"></span></a>
+          <a href="https://twitter.com/JhanpiereMontes"><span class="flaticon-002-twitter"></span></a>
+          <a href="https://www.instagram.com/jhanpieremontes/"><span class="flaticon-011-instagram"></span></a>
+          <a href="https://pe.linkedin.com/in/jhanpieremontes"><span class="flaticon-010-linkedin"></span></a>
+          <a href="https://www.youtube.com/channel/UCsyCTzCImKIwwzdGXEEjlqw?view_as=subscriber"><span class="flaticon-008-youtube"></span></a>
+        </div>
+      </section>
     </header>
-    <main>
+    <!-- <main>
       <section class="hero">
         <div class="container">
           <h1>
@@ -90,7 +115,6 @@
               <div class="flexible-video">
                 <iframe class="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/mQWrAtJRDNU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
-              <!-- <img class="event-image" src="./images/webinar.png" alt="Flyer del webinar"/> -->
             </figure>
             <div class="event-detail">
               <h3 class="event-title">Webinar: Cómo gestionar mi tiempo influye en la innovación</h3>
@@ -110,7 +134,6 @@
           </article>
           <article class="event">
             <figure class="event-imageContainer">
-              <!-- <video class="html-video" src="./images/video.mkv" controls width="1280" height="720"></video> -->
               <img class="event-image" src="./images/webinar.png" alt="Flyer del webinar"/>
             </figure>
             <div class="event-detail">
@@ -125,7 +148,6 @@
         <div class="container">
           <a class="form-email" href="https://docs.google.com/forms/d/e/1FAIpQLSekjIXQao8TfyxpgbF-dLRN7wbcZuYp3EDN8v0boBImjtpO1A/viewform?usp=sf_link">
             <h3 class="name-form">¿Creamos algo juntos?</h3>
-            
             <button>Envíame tu correo</button>
           </a>
           <div class="social">
@@ -136,8 +158,8 @@
           </div>
         </div>
       </section>
-    </main>
-    <footer class="footer">
+    </main> -->
+    <!-- <footer class="footer">
       <div class="container">
         <div>
           <p>#CreaUnMundoMejor</p>
@@ -146,7 +168,7 @@
           <p>Design with 🧡 by <a href="https://twitter.com/JhanpiereMontes" target="_blank">@JhanpiereMontes</a></p>
         </div>
       </div>
-    </footer>
+    </footer> -->
     <script>
       const ipad = window.matchMedia('screen and (max-width: 767px)');
       const menu = document.querySelector('.menu');
@@ -163,7 +185,6 @@
       }
 
       validation(ipad);
-      
       function hideShow() {
         if(menu.classList.contains('is-active')){
           menu.classList.remove('is-active');

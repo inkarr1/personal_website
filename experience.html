@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Jhanpiere Montes</title>
+    <link rel="icon" type="image/svg" href="./images/terra.svg"/>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <meta name="description" content="Hola Soy 🌎Jhanpiere Montes  ingeniero de transportes y apasionado por la tecnología, te ayudaré a cómo impactar en el mundo.🚀">
+  </head>
+  <body>
+    <span class="icon-menu burger-button" id="burger-menu"></span>
+    <header class="header">
+      <div class="container">
+        <figure class="logo">
+          <a href="index.html">
+            <img src="./images/Terra_name.svg" style="width: 150px" alt="Logo de la página de Jhanpiere Montes"/>
+          </a>
+        </figure>
+        <nav class="menu">
+          <ol>
+            <li>
+              <a class="link" href="portfolio.html">Portafolio</a>
+            </li>
+            <li>
+              <a class="link" href="experience.html">Experiencia</a>
+            </li>
+            <li>
+              <a class="link" href="contact.html">Trabajemos juntos</a>
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <h2 class="event-list-title">Más sobre mi experiencia</h2>
+      </div>
+      <section id="eventos" class="event-list">
+        <div class="container">
+          <article class="event">
+            <figure class="event-imageContainer">
+              <img class="event-image" src="./images/webinar.png" alt="Flyer del webinar"/>
+            </figure>
+            <div class="event-detail">
+              <h3 class="event-title">Webinar: Cómo gestionar mi tiempo influye en la innovación</h3>
+              <p class="event-description">Webinar junto con el Centro de Innovación de Miraflores</p>
+              <a class="event-url" href="https://www.youtube.com/watch?v=mQWrAtJRDNU" target="_blank">Ver Plática</a>
+            </div>
+          </article>
+          <article class="event">
+            <figure class="event-imageContainer">
+              <div class="flexible-video">
+                <iframe class="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/mQWrAtJRDNU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <!-- <img class="event-image" src="./images/webinar.png" alt="Flyer del webinar"/> -->
+            </figure>
+            <div class="event-detail">
+              <h3 class="event-title">Webinar: Cómo gestionar mi tiempo influye en la innovación</h3>
+              <p class="event-description">Webinar junto con el Centro de Innovación de Miraflores</p>
+              <a class="event-url" href="https://www.youtube.com/watch?v=mQWrAtJRDNU" target="_blank">Ver Plática</a>
+            </div>
+          </article>
+          <article class="event">
+            <figure class="event-imageContainer">
+              <img class="event-image" src="./images/webinar.png" alt="Flyer del webinar"/>
+            </figure>
+            <div class="event-detail">
+              <h3 class="event-title">Webinar: Cómo gestionar mi tiempo influye en la innovación</h3>
+              <p class="event-description">Webinar junto con el Centro de Innovación de Miraflores</p>
+              <a class="event-url" href="https://www.youtube.com/watch?v=mQWrAtJRDNU" target="_blank">Ver Plática</a>
+            </div>
+          </article>
+          <article class="event">
+            <figure class="event-imageContainer">
+              <!-- <video class="html-video" src="./images/video.mkv" controls width="1280" height="720"></video> -->
+              <img class="event-image" src="./images/webinar.png" alt="Flyer del webinar"/>
+            </figure>
+            <div class="event-detail">
+              <h3 class="event-title">Webinar: Cómo gestionar mi tiempo influye en la innovación</h3>
+              <p class="event-description">Webinar junto con el Centro de Innovación de Miraflores</p>
+              <a class="event-url" href="https://www.youtube.com/watch?v=mQWrAtJRDNU" target="_blank">Ver Plática</a>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section id="contacto" class="contact">
+        <div class="container">
+          <a class="form-email" href="https://docs.google.com/forms/d/e/1FAIpQLSekjIXQao8TfyxpgbF-dLRN7wbcZuYp3EDN8v0boBImjtpO1A/viewform?usp=sf_link">
+            <h3 class="name-form">¿Creamos algo juntos?</h3>
+            
+            <button>Envíame tu correo</button>
+          </a>
+          <div class="social">
+            <a href="https://github.com/jhanpieremontes" target="_blank" class="social-link github icon-github"></a>
+            <a href="https://twitter.com/JhanpiereMontes" target="_blank" class="social-link twitter icon-twitter-square"></a>
+            <a href="https://www.instagram.com/jhanpieremontes/?hl=es-la" target="_blank" class="social-link instagram icon-instagram"></a>
+            <a href="https://www.facebook.com/jhanpiere.montes"  target="_blank" class="social-link facebook icon-facebook2"></a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div>
+          <p>#CreaUnMundoMejor</p>
+        </div>
+        <div>
+          <p>Design with 🧡 by <a href="https://twitter.com/JhanpiereMontes" target="_blank">@JhanpiereMontes</a></p>
+        </div>
+      </div>
+    </footer>
+    <script>
+      const ipad = window.matchMedia('screen and (max-width: 767px)');
+      const menu = document.querySelector('.menu');
+      const burgerButton = document.querySelector('#burger-menu');
+
+      ipad.addListener(validation)
+
+      function validation(event){
+      if(event.matches) {
+        burgerButton.addEventListener('click', hideShow);
+        }else{
+          burgerButton.removeEventListener('click', hideShow);
+        }
+      }
+
+      validation(ipad);
+      
+      function hideShow() {
+        if(menu.classList.contains('is-active')){
+          menu.classList.remove('is-active');
+        }else{
+        menu.classList.add('is-active');
+        }
+      }
+
+    </script>
+  </body>
+</html>

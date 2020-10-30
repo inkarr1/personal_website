@@ -1,0 +1,84 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: normal;
+}
+
+h1{
+  font-size: 4rem;
+  line-height: 1.5;
+  letter-spacing: -0.02rem;
+  color: #EDEDED;
+  margin: 0;
+}
+
+h1 strong{
+  color: #F27638;
+}
+
+h2 {
+  color: #F27638;
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+h3{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+  padding: 12px;
+}
+
+ol,
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size:15px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.home-body {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.header{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: .5fr 1fr;
+  background-image: url(../images/cover.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
