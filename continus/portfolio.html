@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Jhanpiere Montes</title>
+    <link rel="icon" type="image/svg" href="./images/terra.svg"/>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <meta name="description" content="Hola Soy 🌎Jhanpiere Montes  ingeniero de transportes y apasionado por la tecnología, te ayudaré a cómo impactar en el mundo.🚀">
+  </head>
+  <body>
+    <span class="icon-menu burger-button" id="burger-menu"></span>
+    <header class="header">
+      <div class="container">
+        <figure class="logo">
+            <a href="index.html">
+                <img src="./images/Terra_name.svg" style="width: 150px" alt="Logo de la página de Jhanpiere Montes"/>
+              </a>
+        </figure>
+        <nav class="menu">
+          <ol>
+            <li>
+              <a class="link" href="portfolio.html">Portafolio</a>
+            </li>
+            <li>
+              <a class="link" href="experience.html">Experiencia</a>
+            </li>
+            <li>
+              <a class="link" href="contact.html">Trabajemos juntos</a>
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </header>
+    <main>
+        <div class="container">
+          <h2>Portafolio (Proyectos Destacados)</h2>
+          <article class="project">
+            <div class="project-details">
+              <h3 class="project-title">Mi página personal</h3>
+              <h6 class="project-course">HTML / CSS</h6>
+              <p class="project-date"><small><strong>Fecha:</strong> 21/10/2020</small></p>
+              <p class="project-url"><small><strong>Puedes verlo en:</strong><a href="https://jhanpieremontes.github.io/web_development_platzi/" target="_blank">  GitHub Pages</a></small></p>
+              <p class="project-description">Mi página web fue un resultado del proyecto del Curso de Desarrollo Web Online en Platzi. Desarrollando conceptos y buenas prácticas de HTML y CSS.</p>
+            </div>
+            <figure class="project-imageContainer">
+              <img class="project-image" src="./images/landing_page.png" alt="Imagen de una landing page"/>
+            </figure>
+          </article>
+          <article class="project">
+            <div class="project-details">
+              <h3 class="project-title">Google Clone</h3>
+              <h6 class="project-course">HTML / CSS</h6>
+              <p class="project-date"><small><strong>Fecha:</strong> 24/09/2020</small></p>
+              <p class="project-url"><small><strong>Puedes verlo en:</strong> <a href="https://jhanpieremontes.github.io/google_clone/" target="_blank">  GitHub Pages</a> </small></p>
+              <p class="project-description">Google clone fue un resultado del proyecto del Curso Definitivo de HTML y CSS en Platzi. Desarrollando conceptos y buenas prácticas de HTML y CSS.</p>
+            </div>
+            <figure class="project-imageContainer">
+              <img class="project-image" src="./images/google_clone.png" alt="Imagen de la portada de un clon de Google"/>
+            </figure>
+          </article>
+        </div>
+      <section id="contacto" class="contact">
+        <div class="container">
+          <a class="form-email" href="https://docs.google.com/forms/d/e/1FAIpQLSekjIXQao8TfyxpgbF-dLRN7wbcZuYp3EDN8v0boBImjtpO1A/viewform?usp=sf_link">
+            <h3 class="name-form">¿Creamos algo juntos?</h3>
+            
+            <button>Envíame tu correo</button>
+          </a>
+          <div class="social">
+            <a href="https://github.com/jhanpieremontes" target="_blank" class="social-link github icon-github"></a>
+            <a href="https://twitter.com/JhanpiereMontes" target="_blank" class="social-link twitter icon-twitter-square"></a>
+            <a href="https://www.instagram.com/jhanpieremontes/?hl=es-la" target="_blank" class="social-link instagram icon-instagram"></a>
+            <a href="https://www.facebook.com/jhanpiere.montes"  target="_blank" class="social-link facebook icon-facebook2"></a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div>
+          <p>#CreaUnMundoMejor</p>
+        </div>
+        <div>
+          <p>Design with 🧡 by <a href="https://twitter.com/JhanpiereMontes" target="_blank">@JhanpiereMontes</a></p>
+        </div>
+      </div>
+    </footer>
+    <script>
+      const ipad = window.matchMedia('screen and (max-width: 767px)');
+      const menu = document.querySelector('.menu');
+      const burgerButton = document.querySelector('#burger-menu');
+
+      ipad.addListener(validation)
+
+      function validation(event){
+      if(event.matches) {
+        burgerButton.addEventListener('click', hideShow);
+        }else{
+          burgerButton.removeEventListener('click', hideShow);
+        }
+      }
+
+      validation(ipad);
+      
+      function hideShow() {
+        if(menu.classList.contains('is-active')){
+          menu.classList.remove('is-active');
+        }else{
+        menu.classList.add('is-active');
+        }
+      }
+
+    </script>
+  </body>
+</html>

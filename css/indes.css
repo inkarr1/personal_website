@@ -113,7 +113,7 @@ html{
     background-color: #1F2943;
     color: #EDEDED;
     display: flex;
-    height: 70px;
+    height: 7rem;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -139,11 +139,11 @@ html{
     height: inherit;
   }
   .menu .link{
-    font-size: 17px;
+    font-size: 1.7rem;
   }
   
   .hero{
-    height: 420px;
+    height: 42rem;
     background-color: #1F2943;
     display: flex;
     align-items: center;
