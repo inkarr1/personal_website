@@ -21,7 +21,7 @@ body{
   grid-area: 1 / 2;
   display: grid;
   gap: 2rem;
-  grid-template-rows: 10rem 36rem;
+  grid-template-rows: 12rem 36rem;
 }
 .header{
   grid-area: 1 / 1;
@@ -46,10 +46,17 @@ body{
   display: flex;
   justify-content: center;
 }
+.header-subtitle{
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fbfbfe96;
+  display: flex;
+  justify-content: center;
+}
 .card-container{
   display: grid;
   grid-area: 2/1;
-  gap: 1.8rem;
+  gap: 1.2rem;
   /* border: 1px solid blue; */
 }
 .card-button{

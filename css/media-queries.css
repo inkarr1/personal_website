@@ -3,7 +3,7 @@
     grid-template: 1fr / 1fr 32rem 1fr;
   }
   .main{
-    grid-template-rows: 13rem 43rem;
+    grid-template-rows: 15rem 48rem;
   }
   .header-container-image{
     height: 10rem;
@@ -23,13 +23,16 @@
     grid-template: 1fr / 1fr 36rem 1fr;
   }
   .main{
-    grid-template-rows: 15rem 47rem;
+    grid-template-rows: 17rem 52rem;
   }
   .header-container-image{
     height: 12rem;
   }
   .header-title{
     font-size: 1.8rem;
+  }
+  .header-container{
+    gap: 1rem;
   }
   .card-button{
     border-radius: 0.5rem;
