@@ -17,7 +17,6 @@
     gap: 1rem;
   }
   .card-button{
-    border-radius: 0.5rem;
     padding: 1.2rem;
     font-size: 1.2rem;
     font-weight: 600;
@@ -25,7 +24,7 @@
 }
 @media (min-width: 425px) {
   body{
-    grid-template: 1fr / 1fr 36rem 1fr;
+    grid-template: 1fr / 1fr 38rem 1fr;
   }
   .main{
     grid-template-rows: 17rem 52rem;
@@ -34,14 +33,14 @@
     height: 12rem;
   }
   .header-title{
-    font-size: 1.8rem;
+    font-size: 1.9rem;
   }
   .header-container{
     gap: 1rem;
   }
   .card-button{
-    border-radius: 0.5rem;
-    padding: 1rem;
+    padding: 1.3rem;
+    font-size: 1.3rem;
     font-weight: 500;
   }
 }
