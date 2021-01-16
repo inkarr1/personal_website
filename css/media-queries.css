@@ -9,11 +9,16 @@
     height: 10rem;
   }
   .header-title{
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+  }
+  .card-container{
+    display: grid;
+    grid-area: 2/1;
+    gap: 1rem;
   }
   .card-button{
     border-radius: 0.5rem;
-    padding: .8rem;
+    padding: 1.2rem;
     font-size: 1.2rem;
     font-weight: 600;
   }
