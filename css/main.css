@@ -73,4 +73,5 @@ body{
 }
 .card-button:hover{
   background-color: rgb(64, 83, 94);
+  color: #F27638;
 }
