@@ -21,7 +21,7 @@ body{
   grid-area: 1 / 2;
   display: grid;
   gap: 2rem;
-  grid-template-rows: 12rem 18rem;
+  grid-template-rows: 12rem 17rem;
 }
 .header{
   grid-area: 1 / 1;
