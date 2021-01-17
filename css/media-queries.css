@@ -3,13 +3,16 @@
     grid-template: 1fr / 1fr 32rem 1fr;
   }
   .main{
-    grid-template-rows: 15rem 48rem;
+    grid-template-rows: 16rem 20rem;
   }
   .header-container-image{
     height: 10rem;
   }
   .header-title{
     font-size: 1.6rem;
+  }
+  .header-subtitle{
+    font-size: 1.2rem;
   }
   .card-container{
     display: grid;
@@ -27,13 +30,16 @@
     grid-template: 1fr / 1fr 38rem 1fr;
   }
   .main{
-    grid-template-rows: 17rem 52rem;
+    grid-template-rows: 19.5rem 22rem;
   }
   .header-container-image{
     height: 12rem;
   }
   .header-title{
     font-size: 1.9rem;
+  }
+  .header-subtitle{
+    font-size: 1.3rem;
   }
   .header-container{
     gap: 1rem;

@@ -21,7 +21,7 @@ body{
   grid-area: 1 / 2;
   display: grid;
   gap: 2rem;
-  grid-template-rows: 12rem 36rem;
+  grid-template-rows: 12rem 18rem;
 }
 .header{
   grid-area: 1 / 1;
@@ -49,7 +49,7 @@ body{
 .header-subtitle{
   font-size: 1rem;
   font-weight: 500;
-  color: #fbfbfe96;
+  color: #a4a4a7;
   display: flex;
   justify-content: center;
 }
@@ -58,6 +58,9 @@ body{
   grid-area: 2/1;
   gap: .8rem;
   /* border: 1px solid blue; */
+}
+.card{
+  margin: 0;
 }
 .card-button{
   text-decoration: none;
@@ -74,4 +77,17 @@ body{
 .card-button:hover{
   background-color: rgb(64, 83, 94);
   color: #F27638;
+}
+.social-media{
+  display: flex;
+  justify-content: center;
+  color: rgb(64, 83, 94);
+}
+.social-media-link{
+  margin-right: 1rem;
+}
+.social-media-image{
+  height: 2rem;
+  margin-top: 2.5rem;
+  color: #a4a4a7;
 }
