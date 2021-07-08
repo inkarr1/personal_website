@@ -1,0 +1,116 @@
+*,*:before,*:after {
+    box-sizing: border-box;
+    margin    : 0;
+    padding   : 0;
+}
+
+:root {
+    --background-color: #121A21;
+    --font-family: 'Inter', sans-serif;
+}
+
+body{
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items    : center;
+    min-height     : 100vh;
+
+    background-color: var(--background-color);
+    font-family     : var(--font-family);
+}
+
+button {
+    border    : none;
+    background: none;
+}
+
+.header {
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    margin-bottom  : 2.25rem;
+}
+
+.header-container {
+    display        : flex;
+    justify-content: center;
+    margin-bottom  : 1rem;
+}
+
+.header-container-image {
+    height       : 7rem;
+    border-radius: 50%;
+}
+
+.header-title {
+    font-size      : 1.25rem;
+    font-weight    : 700;
+    color          : #FBFBFE;
+    margin         : 0rem;
+    margin-bottom  : .5rem;
+    display        : flex;
+    justify-content: center;
+}
+
+.header-subtitle {
+    font-size      : .875rem;
+    font-weight    : 500;
+    color          : #c8cdd0;
+    display        : flex;
+    justify-content: center;
+    margin         : 0;
+    margin-bottom  : 1rem;
+}
+
+.main {
+    margin-bottom: 1rem;
+}
+
+.card-container {
+    display: grid;
+    gap    : .5rem;
+    width  : 19rem;
+}
+
+.button {
+    margin: 0;
+}
+
+.button-link {
+    text-decoration : none;
+    border-radius   : 0.25rem;
+    background-color: #212E36;
+    box-shadow      : 0px 1px 5px rgba(10, 14, 17, 0.527);
+    padding         : .8rem;
+    font-size       : .875rem;
+    font-weight     : 600;
+    display         : flex;
+    justify-content : center;
+    color           : #FBFBFE;
+}
+
+.button-link:hover {
+    background-color: rgb(64, 83, 94);
+    color: #FBFBFE;
+}
+
+.social-media {
+    display        : flex;
+    justify-content: center;
+    color          : rgb(64, 83, 94);
+    align-items    : center;
+}
+
+.social-media-link {
+    margin-right: 1rem;
+}
+
+.social-media-link:last-child {
+    margin: 0;
+}
+
+.social-media-image {
+    height: 1rem;
+    color : #a4a4a7;
+}
