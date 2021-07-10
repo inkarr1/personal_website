@@ -62,6 +62,10 @@ a {
   text-decoration: none;
 }
 
+li {
+  list-style: none;
+}
+
 .container {
   margin: 0 var(--margin-4) var(--margin-4);
   padding-top: var(--margin-4);
