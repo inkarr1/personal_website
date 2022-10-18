@@ -1,4 +1,6 @@
+import Banner from '../Molecules/Banner';
 import Card from '../Molecules/Card';
+import Image from '../Atoms/Image';
 import Icon from '../Atoms/Icon';
 
 function Main () {
@@ -9,17 +11,17 @@ function Main () {
         <Card />
       </div>
     </div>
-    <section className="banner">
-      <img className="banner-image" src="./assets/avatar.png" alt="Profile"/>
-      <h1 className="h1"><span className="text-alt">Jhanpiere</span> <span className="text-alt">Montes</span></h1>
-      <p className="description">Estudiante de Ciencias de la computación</p>
-    </section>
+    <Banner
+    />
     <section id="homeworks">
       <h2 className="h2">Tareas</h2>
       <div className="card-container">
         <div className="circle left"></div>
         <article id="open-overlay-button" className="card">
-          <img src="./assets/quiz2_web.png" alt="Quiz 2"/>
+          <Image
+            img='quiz2_web'
+            alt='Quiz 2'
+          />
           <div className="card-text">
             <div>
               <h3>Quiz 2 Web</h3>
