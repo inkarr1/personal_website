@@ -1,10 +1,10 @@
 
 function Header () {
   return (
-    <header class="header wrapper">
-      <p class="logo">Jhan</p>
-      <nav class="nav">
-          <ul class="list">
+    <header className='header wrapper'>
+      <p className='logo'>Jhan</p>
+      <nav className='nav'>
+          <ul className='list'>
               <li><a href="#about">Sobre mí</a></li>
               <li><a href="#homeworks">Tareas</a></li>
               <li><a href="#projects">Proyectos</a></li>

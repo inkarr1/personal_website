@@ -2,17 +2,17 @@
 function Card () {
   return (
     <article id='open-overlay-button' className='card'>
-      <div class="card-quiz">
-					<div id="close-quiz-tooltip" class="cross">
-						<img src="./assets/cross.svg" alt="Cerrar tooltip">
+      <div className="card-quiz">
+					<div id="close-quiz-tooltip" className="cross">
+						<img src="./assets/cross.svg" alt="Cerrar tooltip"/>
 					</div>
-					<div class="card-quiz-text">
-						<section class="quiz-text-container">
+					<div className="card-quiz-text">
+						<section className="quiz-text-container">
 							<article>
-								<div class="quiz-theme-container">
-									<a class="enlace" href="http://137.184.108.27/~jhanpiere_montes/" target="_blank">
-										<h3 class="quiz-theme-title">Computer Science</h3>
-										<img src="./assets/share.svg" alt="Link de la clase">
+								<div className="quiz-theme-container">
+									<a className="enlace" href="http://137.184.108.27/~jhanpiere_montes/" target="_blank">
+										<h3 className="quiz-theme-title">Computer Science</h3>
+										<img src="./assets/share.svg" alt="Link de la clase"/>
 									</a>
 								</div>
 								<p>La Ciencia de la Computación  estudia los fundamentos de la información y la computación, puedo abarcar desde los teórico hasta los práctico respecto a estructuración de datos, programación, sistemas y/o estructuras computacionales.</p>
