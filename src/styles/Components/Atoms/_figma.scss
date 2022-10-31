@@ -1,0 +1,24 @@
+.figma {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #1e2023;
+
+    &::after {
+        position: absolute;
+        content: "";
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: #a259ff;
+    }
+
+    &::before {
+        position: absolute;
+        content: "";
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: #41bcfe;
+    }
+}
