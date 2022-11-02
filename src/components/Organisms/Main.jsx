@@ -1,23 +1,21 @@
-import Banner from '../Molecules/Banner';
-import Homeworks from '../Molecules/Homeworks';
-import Projects from '../Molecules/Projects';
-import AboutMe from	'../Molecules/AboutMe';
-import Card from '../Molecules/Card';
+import Banner from '../Molecules/Banner'
+import Homeworks from '../Molecules/Homeworks'
+import Projects from '../Molecules/Projects'
+import AboutMe from	'../Molecules/AboutMe'
+import Modal from '../Molecules/Modal'
 
-function Main () {
-  return (
+const Main = () => (
   <main className="main wrapper">
     <div id="quiz-tooltip" className="quiz-tooltip">
       <div className="quiz-tooltip-container">
-        <Card />
+        <Modal/>
       </div>
     </div>
-    <Banner />
-	<Homeworks />
-	<Projects/>
-	<AboutMe/>
+    <Banner/>
+    <Homeworks/>
+    <Projects/>
+    <AboutMe/>
 	</main>
-    );
-}
+)
 
-export default Main;
+export default Main

@@ -1,5 +1,5 @@
 
-function Card () {
+function Modal () {
   return (
     <article id='open-overlay-button' className='card'>
       <div className="card-quiz">
@@ -47,4 +47,4 @@ function Card () {
   );
 }
 
-export default Card;
+export default Modal;
