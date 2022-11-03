@@ -11,15 +11,10 @@ const Main = () => (
         <Modal/>
       </div>
     </div>
-    <Banner />
-	<Homeworks
-    Id="homeworks"
-    title="Quiz 2 Web"
-    description="Conceptos propios de: Computer Science, Arquitectura de computadoras, Sistema Operativos, Redes y Web."
-    buttonName="Ver la resolución del quiz"
-  />
-	<Projects/>
-	<AboutMe/>
+    <Banner/>
+    <Homeworks/>
+    <Projects/>
+    <AboutMe/>
 	</main>
 )
 

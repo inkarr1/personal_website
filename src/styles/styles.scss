@@ -24,47 +24,6 @@
     max-width: 55rem;
 }
 
-.header {
-    height: var(--height-header);
-    width: 100%;
-
-    display: flex;
-    align-items: center;
-
-    position: fixed;
-    z-index: 10;
-
-    bottom: 0;
-    left: 0;
-
-    backdrop-filter: blur(12px);
-    background-color: rgba(0,0,0, 0.75);
-
-    border-top: 1px solid rgba(255,255,255,0.2);
-}
-
-.header-container {
-    display: flex;
-}
-
-.logo {
-    display: none;
-}
-
-.nav {
-    display: flex;
-    width: 100%;
-}
-
-.list {
-    width: inherit;
-
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 1rem;
-}
-
 .banner {
     padding-top: 4rem;
     display: flex;
