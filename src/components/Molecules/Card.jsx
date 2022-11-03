@@ -1,7 +1,5 @@
-
-function Card () {
-  return (
-    <article id='open-overlay-button' className='card'>
+const Card = () => (
+	<article id='open-overlay-button' className='card'>
       <div className="card-quiz">
 					<div id="close-quiz-tooltip" className="cross">
 						<img src="./assets/cross.svg" alt="Cerrar tooltip"/>
@@ -44,7 +42,6 @@ function Card () {
 					</div>
 				</div>
     </article>
-  );
-}
+)
 
-export default Card;
+export default Card

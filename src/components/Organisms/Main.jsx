@@ -13,7 +13,12 @@ function Main () {
       </div>
     </div>
     <Banner />
-	<Homeworks />
+	<Homeworks
+    Id="homeworks"
+    title="Quiz 2 Web"
+    description="Conceptos propios de: Computer Science, Arquitectura de computadoras, Sistema Operativos, Redes y Web."
+    buttonName="Ver la resolución del quiz"
+  />
 	<Projects/>
 	<AboutMe/>
 	</main>
