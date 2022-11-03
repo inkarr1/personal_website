@@ -1,0 +1,12 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: minmax(20rem, 55rem);
+  justify-content: center;
+}
+
+.gallery {
+  display: grid;
+  gap: 2rem;
+  grid-auto-rows: 100%;
+  grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+}

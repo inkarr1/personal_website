@@ -17,39 +17,39 @@
   border-top: 1px solid rgba(255,255,255,0.2);
 
   .logo {
-      display: none;
+    display: none;
   }
 
   .nav {
-      display: flex;
-      width: 100%;
+    display: flex;
+    width: 100%;
   }
 
   .list {
-      width: inherit;
+    width: inherit;
 
-      display: flex;
-      justify-content: space-evenly;
-      align-items: center;
-      gap: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
   }
 }
 
 @media only screen and (min-width: 450px) {
   .wrapper {
-      width: 100%;
+    width: 100%;
   }
 
   .header {
-      position: sticky;
-      top: 0;
+    position: sticky;
+    top: 0;
   }
 
   .logo {
-      display: initial;
+    display: initial;
   }
 
   .nav {
-      width: initial;
+    width: initial;
   }
 }

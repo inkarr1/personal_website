@@ -1,5 +1,12 @@
+<<<<<<< HEAD:src/components/Molecules/Card.jsx
 const Card = () => (
 	<article id='open-overlay-button' className='card'>
+=======
+
+function Modal () {
+  return (
+    <article id='open-overlay-button' className='card'>
+>>>>>>> c4dc4e94be525b9115effdfb636b205dafc1585d:src/components/Molecules/Modal.jsx
       <div className="card-quiz">
 					<div id="close-quiz-tooltip" className="cross">
 						<img src="./assets/cross.svg" alt="Cerrar tooltip"/>
@@ -44,4 +51,8 @@ const Card = () => (
     </article>
 )
 
+<<<<<<< HEAD:src/components/Molecules/Card.jsx
 export default Card
+=======
+export default Modal;
+>>>>>>> c4dc4e94be525b9115effdfb636b205dafc1585d:src/components/Molecules/Modal.jsx
