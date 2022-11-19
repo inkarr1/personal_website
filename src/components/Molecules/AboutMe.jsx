@@ -66,7 +66,7 @@ const AboutMe = () => (
 								<img src="../" alt="Git" />
 							</li>
 							<li className="icon">
-								<img src="./assets/figma.webp" alt="Figma" />
+								<Figma/>
 							</li>
 							<li className="icon">
 								<img src="./assets/notion.webp" alt="Notion" />
@@ -78,7 +78,6 @@ const AboutMe = () => (
 					</div>
 				</article>
 			</div>
-        <Figma/>
     </section>
 )
 

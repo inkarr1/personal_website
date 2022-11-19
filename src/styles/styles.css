@@ -170,42 +170,6 @@ img {
   max-width: 55rem;
 }
 
-.header {
-  height: var(--height-header);
-  width: 100%;
-  display: flex;
-  align-items: center;
-  position: fixed;
-  z-index: 10;
-  bottom: 0;
-  left: 0;
-  -webkit-backdrop-filter: blur(12px);
-          backdrop-filter: blur(12px);
-  background-color: rgba(0, 0, 0, 0.75);
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.header-container {
-  display: flex;
-}
-
-.logo {
-  display: none;
-}
-
-.nav {
-  display: flex;
-  width: 100%;
-}
-
-.list {
-  width: inherit;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  gap: 1rem;
-}
-
 .banner {
   padding-top: 4rem;
   display: flex;
@@ -524,25 +488,43 @@ img {
     width: 80%;
   }
 }
+:root {
+  --black-color: #181818;
+  --red-color: #f24e1e;
+  --orange-color: #ff7262;
+  --purple-color: #a259ff;
+  --blue-color: #1abcfe;
+  --green-color: #0acf83;
+  --size: 2rem;
+}
+
 .figma {
-  width: 100px;
-  height: 100px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template: repeat(3, 25%)/repeat(2, 25%);
+  height: var(--size);
+  width: var(--size);
+  background: var(--black-color);
   border-radius: 50%;
-  background: #1e2023;
 }
-.figma::after {
-  position: absolute;
-  content: "";
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background: #a259ff;
+.figma .red {
+  background: var(--red-color);
+  border-radius: 50% 0 0 50%;
 }
-.figma::before {
-  position: absolute;
-  content: "";
-  width: 50px;
-  height: 50px;
+.figma .orange {
+  background: var(--orange-color);
+  border-radius: 0 50% 50% 0;
+}
+.figma .blue {
+  background: var(--blue-color);
   border-radius: 50%;
-  background: #41bcfe;
+}
+.figma .purple {
+  background: var(--purple-color);
+  border-radius: 50% 0 0 50%;
+}
+.figma .green {
+  background: var(--green-color);
+  border-radius: 50% 0 50% 50%;
 }/*# sourceMappingURL=styles.css.map */

@@ -1,24 +1,46 @@
+:root {
+  --black-color: #181818;
+  --red-color: #f24e1e;
+  --orange-color: #ff7262;
+  --purple-color: #a259ff;
+  --blue-color: #1abcfe;
+  --green-color: #0acf83;
+  
+  --size: 2rem;
+}
+  
 .figma {
-    width: 100px;
-    height: 100px;
+  display: grid;
+  justify-content:center;
+  align-content: center;
+  grid-template: repeat(3, 25%)/repeat(2, 25%);
+  height: var(--size);
+  width: var(--size);
+  background: var(--black-color);
+  border-radius: 50%;
+
+  .red {
+    background: var(--red-color);
+    border-radius: 50% 0 0 50%;
+  }
+
+  .orange {
+    background: var(--orange-color);
+    border-radius: 0 50% 50% 0;
+  }
+
+  .blue {
+    background: var(--blue-color);
     border-radius: 50%;
-    background: #1e2023;
+  }
 
-    &::after {
-        position: absolute;
-        content: "";
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        background: #a259ff;
-    }
+  .purple {
+    background: var(--purple-color);
+    border-radius: 50% 0 0 50%;
+  }
 
-    &::before {
-        position: absolute;
-        content: "";
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        background: #41bcfe;
-    }
+  .green {
+    background: var(--green-color);
+    border-radius: 50% 0 50% 50%;
+  }
 }
